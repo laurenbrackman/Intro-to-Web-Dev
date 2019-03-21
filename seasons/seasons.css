@@ -1,0 +1,114 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.home html, .home body{
+	background-color: black;
+}
+
+html, body{
+	background-color: white;
+}
+
+
+#wrap{
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+	font-size:20px;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+header img{
+	width: 100%;
+}
+
+nav {
+	padding: 10px;
+	text-align:center;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: white;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+nav a:hover {
+	color: white;
+}
+
+section img{
+	float: right;
+	width: 30%;
+}
+
+footer {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a:hover {
+	color: #8CF0EF;
+}
+
+.home nav, .home footer{
+	background-color: grey;
+}
+
+.home{
+	background-color: white;
+	color: black;
+}
+
+ul, p {
+	text-decoration: none;
+	margin: 10px 30px;
+}
+
+
+
+.summer nav, .summer footer{
+	background-color: #ff7c7c;
+}
+
+.summer{
+	background-color: #fffdaa;
+}
+
+.spring nav, .spring footer{
+	background-color: #1d7530;
+}
+
+.spring{
+	background-color: #c7f9bb;
+}
+
+.fall nav, .fall footer{
+	background-color: #f2a257;
+}
+
+.fall{
+	background-color: #f9dbab;
+}
+
+.winter nav, .winter footer{
+	background-color: #433e84;
+}
+
+.winter{
+	background-color: #bad4ff;
+}
