@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nivo Slider</title>
+		<link href="nivo.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+			<header/>
+			<nav>
+			</nav>
+			<section>
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider">
+						<img src="images/sky.jpg" data-thumb="images/sky.jpg" alt="" />
+						<a href="http://dev7studios.com"><img src="images/skyline.jpg" data-thumb="images/skyline.jpg" alt="" title="City Skyline" /></a>
+						<img src="images/park.jpg" data-thumb="images/park.jpg" alt="" data-transition="slideInLeft" />
+						<img src="images/bridge.jpg" data-thumb="images/bridge.jpg" alt="" title="#htmlcaption" />
+					</div>
+					<div id="htmlcaption" class="nivo-html-caption">
+						Visit<a href="http://nyc.com"> New York City</a>. 
+					</div>
+				</div>
+			</section>
+			<footer>
+			</footer>
+		</div>
+		 <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});
+		</script>
+	</body>
+</html>
+
+
+
