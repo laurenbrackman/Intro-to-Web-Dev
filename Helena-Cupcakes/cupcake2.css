@@ -1,0 +1,149 @@
+body, html{
+	background-color: #ccc;
+	font-family:Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#wrap{
+	width: 75%;
+	margin: 0 auto;
+}
+
+header img{
+	width: 100%;
+}
+
+section a, nav a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	list-style-type: none
+}
+
+nav{
+	text-align: center;
+	background-color:#0EC8C7;
+	width: 96%;
+	padding: 2%;
+}
+
+nav li{
+	display: inline;
+	padding: 0 5%;
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+}
+
+section{
+	margin: 0;
+	background-color: white;
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+section li{
+	padding: 5% 0;
+}
+
+section ul{
+	margin: 0px;
+	width: 20%;
+	background-color:#EC3632;
+	height: 100%;
+}
+
+.buy{
+	float: right;
+	overflow: auto;
+	width: 58%;
+}
+
+.text {
+	width:70%;	
+	margin: 0px 20px;
+	float: right;
+	overflow: auto;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	background-color:#0EC8C7;
+	text-align: center;
+	padding: 4px;
+	font-size: 10px;
+}	
+
+
+@media screen and (min-width:1128px) and (max-width:1173px) {
+	nav li{
+		padding: 0 3%;
+	}
+}
+
+
+@media screen and (min-width:850px) and (max-width:1127px) {
+	nav li{
+		padding: 0 3%;
+	}
+}
+
+@media screen and (min-width:671px) and (max-width:850px) {
+	nav li{
+		padding: 0 1%;
+	}
+	
+	.text {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:670px) {
+	nav li{
+		display: block;
+		padding: 10px;
+	}
+	
+	section ul{
+		display: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	section{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.buy{
+		width: 100%;
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
